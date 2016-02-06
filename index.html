@@ -1,10 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>hello</title>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>task1-九宫格</title>
+    <style type="text/css">
+        #main{
+            width: 100%;
+            margin: 0 auto;
+
+        }
+
+        .block{
+            width: 30%;
+            float: left;
+            margin-left:1%;
+            margin-top:1%;
+            padding:15% 0;
+            background-color: rgb(232,131,13);
+            -moz-border-radius: 1em;
+            -webkit-border-radius: 1em;
+            border-radius: 1em;
+            /*position:relative;
+            z-index:2;*/
+            behavior: url(ie-css3.htc);
+        }
+
+    </style>
 </head>
 <body>
+<div id="main">
+    <div class="block"></div>
+    <div class="block"></div>
+    <div class="block"></div>
+    <div class="block"></div>
+    <div class="block"></div>
+    <div class="block"></div>
+    <div class="block"></div>
+    <div class="block"></div>
+    <div class="block"></div>
+</div>
 
 </body>
 </html>
