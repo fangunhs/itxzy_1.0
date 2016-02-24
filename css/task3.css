@@ -1,0 +1,127 @@
+html,body,div,p,img,h1,h3,header,span{
+    margin:0 auto;
+    padding:0 auto;
+}
+*{
+    border: 0;
+}
+
+body{
+    font-family: "Hiragino Sans GB W3", sans-serif;
+    font-size:62.5%;
+}
+.all{
+    width: 100%;
+    max-width:640px;
+    margin: 0 auto;
+}
+.title{
+    background:#22292c ;
+    width:100%;
+    max-width: 640px;
+    height: 100px;
+}
+.return{
+    float: left;
+    width: 4%;
+    margin-top:4%;
+    margin-left:4%;
+}
+.title span{
+    float: left;
+    font-size:3em;
+    color:#f8f6f5;
+    padding-top: 4.5%;
+    padding-left:2%;
+}
+.mirror{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+
+}
+.mirror span{
+    font-size: 3.5em;
+    color: #f8f6f5;
+    margin: auto;
+    padding-top:4%;
+    padding-left: 25%;
+}
+.more{
+    float: right;
+    width: 6%;
+    margin-top: -9%;
+    margin-right: 3%;
+}
+.content{
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    background:#68cdd5;
+    padding-bottom: 40%;
+}
+.content span{
+    font-size: 4.5em;
+    position:relative;
+    top: -30px;
+    color:#fff;
+    left: -5px;
+    font-weight: 900;
+}
+.left{
+    width: 76px;
+    float: left;
+    margin: 3% 0 0 3%;
+    padding: 0;
+}
+.ppt{
+    width: 80px;
+    margin: 14% 0 0 14%;
+}
+.address{
+    width: 100%;
+    padding: 0 0 50% 0;
+    margin: 0 auto;
+}
+.address span{
+    font-size: 2em;
+    color: #f8f6f5;
+    padding-top:4%;
+    padding-left:43%;
+    font-weight: 100;
+}
+.words{
+    width: 100%;;
+    padding: 0 auto;
+    position:relative;
+    top: 60px;
+}
+.words p{
+    width: 72%;
+    color: #f8f6f5;
+    font-size: 3em;
+    font-family: "Hiragino Sans GB W3", sans-serif;
+    line-height:150%;
+    margin: 0 auto;
+}
+.people1{
+    width: 25%;
+    float: left;
+    margin-left: 15%;
+}
+.pptgreen1{
+    width: 25%;
+    float: right;
+    margin-right: 10%;
+}
+
+.people,.pptgreen{
+    width: 90px;
+    margin-top:-15%;
+    margin-left: 10px;
+}
+.people1 p, .pptgreen1 p{
+    font-size: 2.5em;
+    color: #f8f6f5;
+    font-weight: 200;
+}
