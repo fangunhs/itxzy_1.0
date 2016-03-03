@@ -1,0 +1,114 @@
+*{
+    outline:none;
+    font-family:"微软雅黑";
+    font-weight: normal;
+    color:#fff;  }
+body,header,div,ul,ol,dl,li,h1,h2,h3,h4,h5,h6,dt,dd,img,a,span,p,table,td,i,input,button,textarea,form,input,button{padding:0;margin:0;border:none;}
+h1,h2,h3{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+a{
+    text-decoration:none;
+}
+html{
+    font-size: 125%;/*1rem=20px*/
+}
+body{
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    padding-top: 2.5rem;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 2.5rem;
+    background-color: rgb(95,192,205);
+    z-index:1000;
+}
+header h1{
+    height: 2.5rem;
+    font-size:1rem;
+    line-height: 2.5rem;
+    text-align: center;
+}
+.main{
+    padding-top: 5rem;
+}
+.home-header{
+    position: relative;
+    padding-left: 4.16%;
+    height: 10rem;
+    line-height: 10rem;
+    background-image: url(img/bg.png);
+    background-size: cover;
+    background-position: bottom center;
+}
+.avatar{
+    position: absolute;
+    display: inline-block;
+    left: 4%;
+    top: 25%;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    background: url(img/avatar.png) center center;
+    background-size: cover;
+}
+.info-box{
+    display: inline-block;
+    margin: 5rem;
+}
+.home-header h1{
+    margin-bottom: 0.6rem;
+    height: .8rem;
+    line-height: .8rem;
+    font-size: .8rem;;
+}
+.name{
+    margin-right: .75rem;
+    font-size: .8rem;
+}
+.age{
+    font-size: .6rem;
+}
+.home-header h2{
+    height: .5rem;
+    font-size: .5rem;
+    line-height: .5rem;
+}
+.home-body{
+    padding-top: .8rem;
+}
+.home-body h1{
+    height: .8rem;
+    margin-left: 4%;
+    margin-bottom: .8rem;
+    padding-left: .7rem;
+    font-size: .8rem;
+    line-height: .8rem;
+    color: rgb(51,51,51);
+    border-left: .12rem solid rgb(95,192,205);
+}
+.info-list-box{
+    border-bottom: 1px solid rgb(225,229,231);
+}
+.info-list-box li{
+    margin-left: 4%;
+    padding-left: 3.8%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    font-size: .7rem;
+    border-top: 1px solid rgb(225,229,231);
+}
+.info-list-box li span:first-child{
+    padding-right: .6rem;
+    margin-right: .6rem;
+    border-right: 1px solid rgb(225,229,231);
+}
+.info-list-box li span{
+
+}
