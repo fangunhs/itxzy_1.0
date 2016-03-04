@@ -16,8 +16,8 @@ html{
     font-size: 125%;/*1rem=20px*/
 }
 body{
-    height: 100%;
     width: 100%;
+    height: 100%;
     overflow: scroll;
 }
 .hover-layer{
@@ -50,9 +50,8 @@ main{
     padding-left: 4.16%;
     height: 10rem;
     line-height: 10rem;
-    background-image: url(img/bg.png);
+    background: url(./img/bg.png) center center;
     background-size: cover;
-    background-position: center center;
 }
 .avatar{
     position: absolute;
@@ -63,7 +62,7 @@ main{
     width: 4.5rem;
     height: 4.5rem;
     border-radius: 50%;
-    background: url(img/avatar.png) center center;
+    background: url(./img/avatar.png) center center;
     background-size: cover;
 }
 .info-box{
@@ -72,8 +71,8 @@ main{
 }
 .home-header h1{
     margin-bottom: 0.6rem;
-    height: .8rem;
-    line-height: .8rem;
+    height: 1rem;
+    line-height: 1rem;
     font-size: 1rem;;
 }
 .name{
@@ -128,7 +127,7 @@ main{
     margin-right: .3rem;
     width: .75rem;
     height: .75rem;
-    background-image: url(img/star.png);
+    background-image: url(./img/star.png);
     background-size: cover;
 }
 .info-list-box .title-box{
@@ -144,6 +143,7 @@ main{
     width: 60%;
     font-size: .6rem;
     line-height: .6rem;
+    vertical-align: middle;
     color: #404040;
 }
 .btn-box{
@@ -180,7 +180,7 @@ main{
     margin-top: -.5rem;
     width: .55rem;;
     height: 1rem;
-    background-image: url(img/arrow-1.png);
+    background-image: url(./img/arrow-1.png);
     background-size: cover;
  }
 .ico-shape-1{
@@ -188,6 +188,6 @@ main{
     margin-right: .4rem;
     width: .45rem;
     height: .6rem;
-    background-image:  url(img/shape-1.png);
+    background-image:  url(./img/shape-1.png);
     background-size: cover;
 }
