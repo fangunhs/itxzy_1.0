@@ -19,11 +19,18 @@ body{
     height: 100%;
     width: 100%;
     overflow: scroll;
-    padding-top: 2.5rem;
+}
+.hover-layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0;
 }
 header{
     position: fixed;
-    top: 0;
     width: 100%;
     height: 2.5rem;
     background-color: rgb(95,192,205);
@@ -35,8 +42,8 @@ header h1{
     line-height: 2.5rem;
     text-align: center;
 }
-.main{
-    padding-top: 5rem;
+main{
+    padding-top: 2.5rem;
 }
 .home-header{
     position: relative;
@@ -45,13 +52,14 @@ header h1{
     line-height: 10rem;
     background-image: url(img/bg.png);
     background-size: cover;
-    background-position: bottom center;
+    background-position: center center;
 }
 .avatar{
     position: absolute;
     display: inline-block;
     left: 4%;
-    top: 25%;
+    top: 50%;
+    margin-top: -2.25rem;
     width: 4.5rem;
     height: 4.5rem;
     border-radius: 50%;
@@ -60,20 +68,20 @@ header h1{
 }
 .info-box{
     display: inline-block;
-    margin: 5rem;
+    margin: 4rem 6rem;
 }
 .home-header h1{
     margin-bottom: 0.6rem;
     height: .8rem;
     line-height: .8rem;
-    font-size: .8rem;;
+    font-size: 1rem;;
 }
 .name{
     margin-right: .75rem;
-    font-size: .8rem;
+    font-size: 1rem;
 }
 .age{
-    font-size: .6rem;
+    font-size: .8rem;
 }
 .home-header h2{
     height: .5rem;
@@ -109,6 +117,77 @@ header h1{
     margin-right: .6rem;
     border-right: 1px solid rgb(225,229,231);
 }
-.info-list-box li span{
+.info-list-box span{
+    font-size: .8rem;
+    line-height: .8rem;
+    color: rgb(51,51,51);
+    /*vertical-align: middle;*/
+}
+.info-list-box .tag i{
+    display: inline-block;
+    margin-right: .3rem;
+    width: .75rem;
+    height: .75rem;
+    background-image: url(img/star.png);
+    background-size: cover;
+}
+.info-list-box .title-box{
+    color: rgb(153,153,153);
+}
+.info-list-box b{
+    font-size: .8rem;
+    line-height: .8rem;
+    color: rgb(226,97,99);
+}
+.info-list-box p{
+    display: inline-block;
+    width: 60%;
+    font-size: .6rem;
+    line-height: .6rem;
+    color: #404040;
+}
+.btn-box{
+    margin: 2.5rem auto;
+    height: 2.3rem;
+    width: 90%;
+    font-size: .8rem;
+    text-align: center;
+}
+.btn-box span{
+    display: inline-block;
+    height: 2rem;
+    width: 46%;
+    font-size: .8rem;
+    line-height:2rem;
+    text-align: center;
+    border: 2px solid #5fc0cd;
+    border-radius: .25rem;
+}
+.btn-1{
+    margin-right: 2%;
+    color: #5fc0cd;
+}
+.btn-2{
+    background-color: #5fc0cd;
+}
 
+/*icon*/
+.ico-arrow-1{
+    display: block;
+    position: absolute;
+    left: 4%;
+    top: 50%;
+    margin-top: -.5rem;
+    width: .55rem;;
+    height: 1rem;
+    background-image: url(img/arrow-1.png);
+    background-size: cover;
+ }
+.ico-shape-1{
+    display: inline-block;
+    margin-right: .4rem;
+    width: .45rem;
+    height: .6rem;
+    background-image:  url(img/shape-1.png);
+    background-size: cover;
 }
