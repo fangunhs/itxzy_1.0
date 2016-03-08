@@ -63,9 +63,8 @@ main{
     font-size:1.2rem;
     width: 80%;
     padding: 8% 0;
-/*    height: 5rem;
-    line-height: 5rem;*/
     margin: 4% auto;
+/*    position: relative;*/
     background-color: #69d1e9;
 }
 .num-usr{
@@ -91,7 +90,7 @@ main{
     height: 1.5rem;
     position: absolute;
     top: 50%;
-    right:3%;
+    right: 3%;
     margin-top: -.75rem;
     background-image: url(./img/arrow-left-gray.png);
     background-size: cover;
