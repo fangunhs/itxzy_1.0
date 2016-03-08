@@ -171,8 +171,168 @@ main{
     background-color: #5fc0cd;
 }
 
+.tab-box{
+    margin: .25rem auto 0;
+    width: 45%;
+    height: 2rem;
+    font-size: .8rem;
+    background-color: #55a8b3;
+    border-radius: 5px;
+}
+.tab-box span{
+    float: left;
+    display: inline-block;
+    width:50%;
+    height: 2rem;
+    font-size: .8rem;
+    line-height: 2rem;
+    text-align: center;
+}
+.tab-box .light{
+    color: #5fc0cd;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.filter-box{
+    position: fixed;
+    top: 2.5rem;
+    left: 0;
+    height: 2rem;
+    width: 96%;
+    padding: 0 2%;
+    font-size: .7rem;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    z-index: 999;
+}
+.filter-box div{
+    position: relative;
+    float: left;
+    width: 32%;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+
+}
+.filter-box div:nth-child(2){
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+.filter-box span{
+    color: #999;
+    line-height: .7rem;
+}
+.filter-box i{
+    position: absolute;
+    top:50%;
+    margin-top: -.15rem;
+    right: 7%;
+}
+.detail-list{
+    padding: 4rem 4.2% 2.5rem;
+}
+
+.detail-list li{
+    position: relative;
+    height: 4.5rem;
+    font-size:.6rem;
+    text-align: left;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+}
+.detail-list li:hover .hover-layer{
+    opcity: 0.3;
+}
+
+.detail-list .date-title{
+    font-size:.6rem;
+    margin-top: .65rem;
+    padding-left: 8%;
+    height: .7rem;
+    line-height: .7rem;
+    color: #999;
+    background: url(./img/calendar.png) left center no-repeat;
+    background-size: auto 100%;
+}
+.detail-list .date{
+    margin: .5rem 0;
+    padding-left:8%;
+    height:.7rem;
+    color: #333;
+    font-size: .6rem;
+}
+.detail-list .address{
+ /*   display: block;*/
+    height: .7rem;
+    padding-left: 8%;
+    color: #999;
+    font-size: .6rem;
+    line-height: .7rem;
+    background: url(./img/shape-2.png) left center no-repeat;
+    background-size: auto 100%;
+}
+.detail-list .price{
+    position: absolute;
+    right: 0;
+    top:50%;
+    margin-top: -.4rem;
+/*    dispaly: inline-block;*/
+    padding-right: 1rem;
+    height:.8rem;
+    line-height: .8rem;
+    font-size: .8rem;
+    color: #e63b0e;
+    padding-right: 6%;
+    background: url(./img/arrow-right.png) right center no-repeat;
+    background-size: auto 100%;
+}
+.function-box{
+    position: fixed;
+    bottom:0;
+    width:100%;
+    height: 2.5rem;
+    background-color: #f8fafb;
+    text-align: center;
+}
+.function-box .write{
+    display: inline-block;
+    margin: 0 auto;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #5fc0cd;
+    border-radius: 50%;
+}
+.function-box span{
+    font-size: .5rem;
+    line-height: .5rem;
+}
+.function-box .btn-home{
+    position: absolute;
+    width: 1.25rem;
+    height: 2.5rem;
+    line-height: .6rem;
+    text-align: center;
+    top: 0;
+    left: 20%;
+}
+.function-box .btn-home span{
+    color: #5fc0cd;
+    width:1.25rem;
+}
+.function-box .btn-usr{
+    position: absolute;
+    width: 1.25rem;
+    height: 2.5rem;
+    line-height: .6rem;
+    text-align: center;
+    top:0;
+    right: 20%;
+}
+.function-box .btn-usr span{
+    color: #999;
+}
 /*icon*/
-.ico-arrow-1{
+.ico-arrow-left{
     display: block;
     position: absolute;
     left: 4%;
@@ -180,7 +340,7 @@ main{
     margin-top: -.5rem;
     width: .55rem;;
     height: 1rem;
-    background-image: url(./img/arrow-1.png);
+    background-image: url(img/arrow-left.png);
     background-size: cover;
  }
 .ico-shape-1{
@@ -189,5 +349,45 @@ main{
     width: .45rem;
     height: .6rem;
     background-image:  url(./img/shape-1.png);
+    background-size: cover;
+}
+.ico-map{
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url(./img/ico-map.png);
+    background-size: cover;
+    position: absolute;
+    top: 20%;
+    right:5%;
+}
+.arrow-down{
+    display: inline-block;
+    width: .3rem;
+    height: .3rem;
+    background-image: url(./img/arrow-down.png);
+    background-size: cover;
+}
+.ico-write{
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url(./img/ico-write.png);
+    background-size: cover;
+}
+.ico-home{
+    display: block;
+    margin: .4rem auto 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    background-image: url(./img/ico-home.png);
+    background-size: cover;
+}
+.ico-usr{
+    display: block;
+    margin: .4rem auto 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    background-image: url(./img/ico-usr.png);
     background-size: cover;
 }
