@@ -1,0 +1,117 @@
+*{
+    outline: none;
+    font-family: 微软雅黑;
+    font-weight: normal;
+    color: #fff;
+}
+body,header,div,ul,ol,dl,li,h1,h2,h3,h4,h5,h6,dt,dd,img,a,span,p,table,td,i,input,button,textarea,form,input,button{padding:0;margin:0;border:none;}
+h1,h2,h3{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+html{
+    font-size:125%;/*1rem=20px*/
+}
+body{
+    width:100%;
+    height: 100%;
+    overflow: scroll;
+    background-color: #f0f0f0;
+}
+header{
+    height: 2.5rem;
+    background-color: #29bde0;
+    position: relative;
+}
+main{
+    height: 100%;
+}
+.home-header{
+    width:90%;
+    padding: 6% 0;
+    margin:5% auto;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    border: 1px solid #cecece;
+}
+.home-header span{
+    font-size: 1.2rem;
+    color: #9a9a9a;
+}
+.home-body{
+    width:90%;
+    padding: 3% 0;
+    margin:2% auto;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    border: 2px solid #cecece;
+}
+.home-body h1{
+    padding-bottom: 4%;
+    font-size: 1.2rem;
+    color: #fbb435;
+    border-bottom: 1px solid #fbb435;
+}
+.version{
+    display: block;
+    font-size:1.2rem;
+    width: 80%;
+    padding: 8% 0;
+/*    height: 5rem;
+    line-height: 5rem;*/
+    margin: 4% auto;
+    background-color: #69d1e9;
+}
+.num-usr{
+    display: block;
+    font-size: .8rem;
+    color: #c3c3c3;
+}
+/*icon*/
+.nav-left{
+    display: inline-block;
+    width: 1.7rem;
+    height: 1.7rem;
+    position: absolute;
+    top: 50%;
+    left:3%;
+    margin-top: -.85rem;
+    background-image: url(./img/nav-left.png);
+    background-size: cover;
+}
+.arrow-left-gray{
+    display: inline-block;
+    width: 1rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 50%;
+    right:3%;
+    margin-top: -.75rem;
+    background-image: url(./img/arrow-left-gray.png);
+    background-size: cover;
+}
+.arrow-left-yellow{
+    display: inline-block;
+    width: 1rem;
+    height: 1.8rem;
+    position: absolute;
+    top: 50%;
+    right:1%;
+    margin-top: -.9rem;
+    background-image: url(./img/arrow-left-yellow.png);
+    background-size: cover;
+}
+.page-no{
+    display: inline-block;
+    width: 4rem;
+    height: .7rem;
+    margin-top: .5rem;
+    background-image: url(./img/page-no.png);
+    background-size: cover;
+}
