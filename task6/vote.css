@@ -1,0 +1,85 @@
+*{
+    outline: none;
+    font-family: 微软雅黑;
+    font-weight: normal;
+    color: #fff;
+}
+body,header,div,ul,ol,dl,li,h1,h2,h3,h4,h5,h6,dt,dd,img,a,span,p,table,td,i,input,button,textarea,form,input,button{padding:0;margin:0;border:none;}
+h1,h2,h3{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+html{
+    font-size: 125%;/*1rem=20px*/
+}
+body{
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    background-color: #29bde0;
+}
+header{
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.home-header{
+    height: 5rem;
+}
+.home-header h1{
+    color: #464646;
+    font-size: 1rem;
+    padding: 5% 0 5% 8%;
+    background-color: #b9e9f5;
+}
+.home-body{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+/*    text-align: center;*/
+}
+.home-body h2{
+    height: .9rem;
+    font-size:.9rem;
+    margin:0 0 5% 10%;
+}
+.box{
+    width: 90px;
+    height: 90px;
+    margin: 4% 5% 2% 5%;
+    background-color: #f5c97b;
+    float: left;
+    text-align: center;
+    border: 4px solid #fff;
+}
+
+.box h1{
+    padding: 20% 0;
+    font-size: 1.2rem;
+    color: #565656;
+}
+.box h3{
+    font-size: .9rem;
+    width: 100%;
+    margin: 0;
+    background-color: #83b09a;
+}
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background: #29bde0;
+    border-top: 1px solid #fff;
+}
+footer button{
+    padding: 3% 30%;
+    margin: 5% auto;
+    background-color: #fbb435;
+    font-size: 1.5rem;
+}
