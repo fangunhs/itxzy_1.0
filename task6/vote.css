@@ -23,54 +23,59 @@ body{
     background-color: #29bde0;
 }
 header{
-    height: 4rem;
-    line-height: 4rem;
+    height: 3rem;
+    line-height: 3rem;
     text-align: center;
     font-size: 1.2rem;
+    position: relative;
 }
 .home-header{
-    height: 5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    background-color: #b9e9f5;
 }
-.home-header h1{
+.home-header span{
     color: #464646;
     font-size: 1rem;
-    padding: 5% 0 5% 8%;
-    background-color: #b9e9f5;
+    margin-left: 7%;
+    width: 70%;
 }
 .home-body{
     width: 100%;
     height: 100%;
     margin: auto;
-/*    text-align: center;*/
 }
 .home-body h2{
     height: .9rem;
     font-size:.9rem;
-    margin:0 0 5% 10%;
+    margin:5% 0 5% 10%;
 }
 .box{
-    width: 90px;
-    height: 90px;
+    width: 22%;
+/*    padding: 5% 0;*/
+/*    height: 65px;*/
     margin: 4% 5% 2% 5%;
     background-color: #f5c97b;
     float: left;
     text-align: center;
-    border: 4px solid #fff;
+    border: 2px solid #fff;
 }
 
 .box h1{
-    padding: 20% 0;
-    font-size: 1.2rem;
+    padding: 28% 0;
+    font-size: 1rem;
     color: #565656;
 }
 .box h3{
-    font-size: .9rem;
+    font-size: .5rem;
     width: 100%;
-    margin: 0;
+    margin-bottom: 0;
     background-color: #83b09a;
 }
 footer{
+    float: none;
     width: 100%;
+/*    height: 6rem;*/
     position: fixed;
     bottom: 0;
     text-align: center;
@@ -78,8 +83,48 @@ footer{
     border-top: 1px solid #fff;
 }
 footer button{
-    padding: 3% 30%;
-    margin: 5% auto;
+    padding: 2% 25%;
+    margin: 5% auto 8%;
     background-color: #fbb435;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
+/*icon*/
+.icon-top{
+    display: inline-block;
+    width: 1.5rem;
+    height:1.5rem;
+    position: absolute;
+    top: 50%;
+    margin-top: -.75rem;
+    background-size: cover;
+}
+.nav-left-2{
+    background-image: url("./img/nav-left-2.png");
+    left: 5%;
+}
+.cross-right{
+    background-image: url("./img/cross-right.png");
+    right: 5%;
+}
+.play-yellow{
+    display: inline-block;
+    width: 1.5rem;
+    height:1.5rem;
+/*    position: absolute;
+    top: 50%;*/
+    float: right;
+  /*  margin-top: -.75rem;*/
+    background-image: url("./img/play-yellow.png");
+    background-size: cover;
+}
+/*
+.triangle{
+    width: 1.5rem;
+    height:1.5rem;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    margin-top: -.75rem;
+    background-image: url("./img/play-yellow.png");
+    background-size: cover;
+}*/
