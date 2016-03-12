@@ -40,7 +40,7 @@ main{
     border: 1px solid #cecece;
 }
 .home-header span{
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #9a9a9a;
 }
 .home-body{
@@ -81,8 +81,9 @@ main{
     top: 50%;
     left:3%;
     margin-top: -.85rem;
-    background-image: url(./img/nav-left.png);
-    background-size: cover;
+    background-image: url(./img/CssGaga.png);
+    background-position: -64px -102px;
+    background-size: 226px 156px;
 }
 .arrow-left-gray{
     display: inline-block;
@@ -92,8 +93,9 @@ main{
     top: 50%;
     right: 3%;
     margin-top: -.75rem;
-    background-image: url(./img/arrow-left-gray.png);
-    background-size: cover;
+    background-image: url(./img/CssGaga.png);
+    background-position: -100px -102px;
+    background-size: 226px 156px;
 }
 .arrow-left-yellow{
     display: inline-block;
@@ -103,14 +105,16 @@ main{
     top: 50%;
     right:1%;
     margin-top: -.9rem;
-    background-image: url(./img/arrow-left-yellow.png);
-    background-size: cover;
+    background-image: url(./img/CssGaga.png);
+    background-position: -42px -102px;
+    background-size: 226px 156px;
 }
 .page-no{
     display: inline-block;
     width: 4rem;
     height: .7rem;
     margin-top: .5rem;
-    background-image: url(./img/page-no.png);
-    background-size: cover;
+    background-image: url(./img/CssGaga.png);
+    background-position: -114px -134px;
+    background-size: 226px 156px;
 }

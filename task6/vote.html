@@ -5,7 +5,7 @@
     <meta http-equiv="x-ua-compatible" content="IE=edge, chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>task6-vote</title>
-    <link rel="stylesheet" href="vote.css">
+    <link rel="stylesheet" href="vote+result.css">
 </head>
 <body>
     <div class="wrap">
@@ -17,16 +17,17 @@
         <main>
             <div class="home-header">
                 <span>发言讨论结束，请大家投票 </span>
-                <i class="play-yellow"></i>
+                <a href="result.html"><i class="play-yellow"></i></a>
                 <i class="triangle"></i>
             </div>
             <div class="home-body">
                 <h2>点击得票数最多人的头像</h2>
-                <div class="box">
+                <div id="box-1" class="box">
                     <h1>水民</h1>
                     <h3>1号</h3>
-                    <i class="option.png"></i>
+                    <i class="option"></i>
                 </div>
+
                 <div class="box">
                     <h1>水民</h1>
                     <h3>2号</h3>
@@ -71,10 +72,10 @@
                     <h1>水民</h1>
                     <h3>12号</h3>
                 </div>
-                <footer>
-                    <button>投死</button>
-                </footer>
             </div>
+            <footer>
+                <a href="result.html"><button>投死</button></a>
+            </footer>
         </main>
     </div>
 </body>
