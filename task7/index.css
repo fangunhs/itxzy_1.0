@@ -1,0 +1,441 @@
+*{
+    outline: none;
+    font-family: 微软雅黑;
+    color: #a8a8a8;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+html{
+    font-size: 125%; /*1rem= 20px;*/
+    background-color: #fafafa;
+}
+.warp{
+    width: 1923px;
+}
+header{
+    width: 1923px;
+    height: 2rem;
+    position: relative;
+}
+header span{
+    line-height: 2rem;
+    color: #29b078;
+    font-size: .7rem;
+    margin-left: 18.7%;
+}
+.home-header{
+    width: 1923px;
+    height: 35rem;
+}
+.home-header nav{
+    height: 100px;
+    line-height: 100px;
+    background-color: #29b078;
+    padding-left: 61rem;
+}
+.home-header ul{
+    height: 100%;
+}
+.home-header li{
+    display: inline-block;
+    width: 100px;
+    height: 95px;
+    text-align: center;
+    color: #fff;
+}
+.home-header li:first-child{
+    border-bottom: 5px solid white;
+}
+.box-carousel{
+    width: 1923px;
+    height: 600px;
+    position: relative;
+}
+.arrow{
+    cursor: pointer;
+    color: #7a7b86;
+    text-align: center;
+    font-size: 4rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-weight: 100;
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    margin-top: -1.5rem;
+    opacity: 0.7;
+}
+#prev{
+    left: 290px;
+}
+#next{
+    right: 290px;
+}
+.buttons{
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    z-index: 1000;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -40px;
+}
+.buttons span {
+    display: inline-block;
+    text-align: center;
+    border: 2px solid white;
+    width: 20px;
+    height: 20px;
+    margin: 2%;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: transparent;
+}
+.home-body{
+    width: 1223px;
+    margin: 0 350px;
+    color: #000;
+}
+.body-first-row{
+    margin-top: 7.5rem;
+    width: 100%;
+    height: 15rem;
+}
+.character-box, .population-box{
+    width: 24%;
+    border: 0;
+    height: 11rem;
+    float: left;
+    text-align: center;
+}
+.population{
+    width: 9rem;
+    height: 11rem;
+    text-align: left;
+    margin: 0 auto;
+    padding-top: 2.5rem;
+}
+.icon-character{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.titles{
+    text-align: center;
+    font-size: 1rem;
+    color: #000;
+ }
+.character-box h2{
+    font-size: .8rem;
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+}
+.population-box{
+    border-left: 1px dashed #a8a8a8;
+}
+.population span, h2{
+    font-size: .8rem;
+    margin: .3rem 0 1rem;
+}
+.population span{
+    color: #80B092;
+    margin-left: .5rem;
+}
+.steps-learn{
+    width: 100%;
+    height: 20rem;
+}
+.steps{
+    font-size: .8rem;
+    width: 15rem;
+    height: 5rem;
+    display: inline-block;
+    margin: 2.5rem 0;
+}
+.no{
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    background-color: white;
+    box-shadow: 0px 0px .2rem #888888;
+    font-size: 1rem;
+    color: #29B078;
+    text-align: center;
+    line-height: 4rem;
+    border-radius: 50%;
+    margin-right: .4rem;
+}
+.steps-content{
+    display: inline-block;
+    width: 8rem;
+    vertical-align: middle;
+    font-size: .8rem;
+}
+.genius-show{
+    width: 100%;
+    height: 28rem;
+    padding-top: 2.5rem;
+}
+.genius-box{
+    width: 22%;
+    height: 18.5rem;
+    display: inline-block;
+    background-color: #fff;
+    margin: 4rem 3.5% 0 0;
+    box-shadow: 0px 0px .2rem #888888;
+}
+.genius-show div:nth-last-child(2){
+    margin:4rem 0 0 0;
+}
+.genius-avatar{
+    width: 100%;
+    height: 8rem;
+    position: relative;
+}
+.genius-box h1{
+    font-size: 1rem;
+    color: #000;
+    text-align: center;
+}
+.genius-box p{
+    width: 80%;
+    margin: 1rem auto;
+    font-size: .8rem;
+    color: #A8A8A8;
+    text-align: left;
+}
+.genius-btns{
+    display: block;
+    width: 5rem;
+    height: 1rem;
+    margin: 1rem auto;
+}
+.genius-btns span{
+    width: .8rem;
+    height: .8rem;
+    background-color: white;
+    box-shadow: 0px 0px .2rem #888888;
+    border-radius: 50%;
+    margin: 0 .2rem;
+    float: left;
+}
+.genius-btns span:first-child{
+    background-color: #29B078;
+}
+.cooperative-corporations{
+    width: 100%;
+    height: 15rem;
+    margin-top: 5rem;
+}
+footer{
+    margin-top: 6rem;
+    width: 1923px;
+/*    height: 17rem;*/
+    background-color: #29B078;
+}
+.links{
+    background-color: #fff;
+}
+.links h1{
+    margin-bottom: 1rem;
+}
+.links ul{
+    width: 1223px;
+    height: 4rem;
+    margin: 0 auto;
+    padding-left: 3rem;
+}
+.links li{
+    float: left;
+    width: 10%;
+    height: 1.75rem;
+    font-size: .8rem;
+    text-align: left;
+    list-style-type:disc;
+
+}
+.footer-bottom{
+    width: 1223px;
+    height: 8rem;
+    margin: 0 auto;
+    font-size: .7rem;
+}
+.about, .subordinate, .qr{
+    width: 33.3%;
+    height: 8rem;
+    float: left;
+}
+.about h1{
+    font-size: 1rem;
+    margin: 1.5rem 0;
+    color: white;
+}
+.about p{
+    font-size: .8rem;
+    margin-top: 3rem;
+    color: white;
+}
+.subordinate h1{
+    font-size: 1rem;
+    margin: 1.5rem 0;
+    color: white;
+}
+.subordinate span{
+    display: inline-block;
+    width: 35%;
+    font-size: .8rem;
+    margin: 0 0 .5rem 0;
+    color: white;
+}
+.qr{
+    position: relative;
+}
+.qr h1{
+    font-size: .8rem;
+    color: white;
+    text-align: right;
+    margin-top: 2rem;
+}
+.copyright{
+    width: 100%;
+    height: 1.5rem;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: .6rem;
+    color: white;
+    border-top: 1px solid white;
+    margin-top: .5rem;
+}
+
+/*icon*/
+i{
+    display: inline-block;
+}
+
+.icon-wechat{
+    width: 27px;
+    height: 28px;
+    background-image: url("img/icon-wechat.png");
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    margin-top: -14px;
+    right: 20rem;
+}
+.icon-qq{
+    width: 26px;
+    height: 26px;
+    background-image: url("img/icon-qq.png");
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    margin-top: -13px;
+    right: 18rem;
+}
+.icon-weibo{
+    width: 30px;
+    height: 26px;
+    background-image: url("img/icon-weibo.png");
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    margin-top: -13px;
+    right: 16rem;
+}
+.carousel{
+    width: 1923px;
+    height: 599px;
+    background-image: url("img/carousel.png");
+    background-size: cover;
+
+}
+.efficient{
+    width: 50px;
+    height: 74px;
+    background-image: url("img/efficient.png");
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    margin-top: -37px;
+    left: 50%;
+    margin-left: -25px;
+
+}
+.normalization{
+    width: 67px;
+    height: 59px;
+    background-image: url("img/normalization.png");
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    margin-top: -29.5px;
+    left: 50%;
+    margin-left: -33.5px;
+}
+.contacts{
+    width: 56px;
+    height: 59px;
+    background-image: url("img/contacts.png");
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    margin-top: -29.5px;
+    left: 50%;
+    margin-left: -28px;
+}
+.avatar-green{
+    width: 18px;
+    height: 16px;
+    background-image: url("img/avatar.png");
+    background-size: cover;
+}
+.arrow-green{
+    width: 32px;
+    height: 29px;
+    background-image: url("img/arrow-green.png");
+    background-size: cover;
+    vertical-align: middle;
+}
+.genius{
+    width: 111px;
+    height: 111px;
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    margin-left: -55.5px;
+    top: 50%;
+    margin-top: -55.5px;
+}
+.genius-1{
+    background-image: url("img/genius-1.png");
+}
+.genius-2{
+    background-image: url("img/genius-2.png");
+}
+.genius-3{
+    background-image: url("img/genius-3.png");
+}
+.genius-4{
+    background-image: url("img/genius-4.png");
+}
+.corporations {
+    margin-top: 3rem;
+    width: 1223px;
+    height: 184px;
+    background-image: url("img/corporations.png");
+    background-size: cover;
+}
+.qr-code{
+    width: 93px;
+    height: 92px;
+    background-image: url("img/qr-code.png");
+    position: absolute;
+    right: 0;
+/*    top: 2rem;*/
+}
