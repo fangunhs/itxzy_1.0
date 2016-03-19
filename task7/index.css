@@ -288,11 +288,19 @@ footer{
 }
 .subordinate span{
     display: inline-block;
-    width: 35%;
+    width: 24%;
+    height: 1rem;
     font-size: .8rem;
-    margin: 0 0 .5rem 0;
+    margin: 0 2rem .5rem 0;
     color: white;
 }
+.span1{
+    border-bottom: 1px solid white;
+    padding-bottom: 6px;
+}
+/*.subordinate span:first-child{
+    text-decoration: underline;
+}*/
 .qr{
     position: relative;
 }
