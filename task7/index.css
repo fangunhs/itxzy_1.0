@@ -366,6 +366,12 @@ footer{
     margin-left: 5.5rem;
     margin-right: .5rem;
 }
+.partners-list li:nth-child(3){
+    color: #ff650e;
+}
+.partners-list li:nth-child(3) span{
+    background-color: #f9a372;
+}
 .Tudou{
     width: 45rem;
     height:55rem;
