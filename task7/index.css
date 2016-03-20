@@ -21,22 +21,23 @@ header{
     width: 1923px;
     height: 2rem;
     position: relative;
+    background-color: white;
 }
 header span{
     line-height: 2rem;
     color: #29b078;
-    font-size: .7rem;
+    font-size: .8rem;
     margin-left: 18.7%;
 }
 .home-header{
     width: 1923px;
-    height: 35rem;
 }
 .home-header nav{
     height: 100px;
     line-height: 100px;
     background-color: #29b078;
     padding-left: 61rem;
+    position: relative;
 }
 .home-header ul{
     height: 100%;
@@ -234,9 +235,9 @@ header span{
     margin-top: 5rem;
 }
 footer{
+    clear: right;
     margin-top: 6rem;
     width: 1923px;
-/*    height: 17rem;*/
     background-color: #29B078;
 }
 .links{
@@ -298,9 +299,6 @@ footer{
     border-bottom: 1px solid white;
     padding-bottom: 6px;
 }
-/*.subordinate span:first-child{
-    text-decoration: underline;
-}*/
 .qr{
     position: relative;
 }
@@ -321,7 +319,103 @@ footer{
     margin-top: .5rem;
 }
 
+/*partners.html*/
+.home-body h2, .home-body span{
+    font-size: .8rem;
+    color: #000;
+    margin-top: 1rem;
+}
+.home-body span:last-child{
+    color: #29B078;
+}
+.partners-list{
+    width: 15rem;
+    height: 35rem;
+    font-size: .8rem;
+    background-color: #fff;
+    display: inline-block;
+    box-shadow: 0px 0px .2rem #888888;
+}
+.partners-list h1{
+    font-size: 1rem;
+    color: #000;
+    font-weight: bold;
+    height: 3rem;
+    line-height: 3rem;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.partners-list li{
+    display: block;
+    list-style-type:none;
+    height: 2rem;
+    line-height: 2rem;
+    width: 100%;
+    color: #29B078;
+/*    background-color: navajowhite;*/
+    margin: 2% auto;
+}
+.partners-list span{
+    display: inline-block;
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    border: 1px solid #ff650e;
+    background-color: transparent;
+    margin-left: 5.5rem;
+    margin-right: .5rem;
+}
+.Tudou{
+    width: 45rem;
+    height:55rem;
+    font-size: .8rem;
+    float: right;
+    background-color: #fff;
+    margin-bottom: 10rem;
+    padding-bottom: 5rem;
+    box-shadow: 0px 0px .2rem #888888;
+}
+.Tudou-intro{
+    width: 100%;
+    height:10rem;
+    vertical-align: middle;
+    border-bottom: 1px solid #e6e6e6;
+    position: relative;
+
+}
+.box-intro{
+    display: block;
+    width: 90%;
+    height: 6rem;
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    margin-top: -3rem;
+    left: 50%;
+    margin-left: -45%;;
+}
+.Tudou-intro p{
+    float: right;
+    width: 31rem;
+    line-height: 1.5rem;
+}
+.Tudou-details{
+    width: 90%;
+    margin: auto;
+}
+.Tudou-details p{
+    display: block;
+    width: 100%;
+    line-height: 1.5rem;
+    margin-top: 2rem;
+}
+
+
 /*icon*/
+
+/*icon-index.html*/
+
 i{
     display: inline-block;
 }
@@ -445,5 +539,31 @@ i{
     background-image: url("img/qr-code.png");
     position: absolute;
     right: 0;
-/*    top: 2rem;*/
+}
+
+/*icon-partners.html*/
+.icon-jnshu{
+    width:116px;
+    height:54px;
+    background-image: url("img/icon-jnshu.png");
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    margin-top: -27px;
+    left: 18.3%;
+}
+
+.recommend{
+    width: 1923px;
+    height: 248px;
+    background-image: url("img/recommend.png");
+    background-size: cover;
+}
+.icon-Tudou{
+    width: 135px;
+    height: 43px;
+    background-image: url("img/icon-Tudou.png");
+    background-size: cover;
+    display: inline-block;
+    margin: 40px 20px;
 }
