@@ -1,0 +1,71 @@
+*{  outline: none;  font-family: 微软雅黑;   font-weight: 100;  margin: 0;  padding: 0;  border: none;  }
+html{  font-size: 125%; /*1rem= 20px;*/     color: #999999; }
+.wrap{  width: 1920px;}
+header, footer{ width: 100%;    height: 2.25rem;    line-height: 2.25rem;    background-color: #1d7ad9; }
+.header-content, .content-header nav, .content-body, .content-footer-box{  width: 1200px; margin: 0 auto;}
+.main{  width: 100%;    background-color: #fff;}
+.content-header{    width: 100%;    height: 5rem;    background-color: #f9f9f9;}
+.content-footer{    width: 100%;    background-color: #f9f9f9;  margin-top: 3rem;   padding: 3rem 0 8rem 0;}
+
+/********/
+/*header-content*/
+.header-content{    height: 100%;    font-size: .75rem;  color: #fff;}
+.header-content h1{ /* float: right; */  display: inline-block;     height: 100%; float: right; color: #000;   font-size: .8rem;    text-align: center;}
+.header-content h1 span:first-child{    display: inline-block;    width: 3rem;  height: 100%;   color: #fff;    background-color: #1d7ad9; border-left: 1px solid #fff;}
+.header-content h1 span:last-child{ display: inline-block;  width: 6rem; height: 100%;  background-color: #fff;}
+
+/********/
+/*content-header & content-body*/
+.content-header ul, ul.customize-steps{ float: right;   padding: 1rem 0;}
+.content-header li{ float: left;    list-style-type: none;    padding: 0 1rem;  height: 2.25rem;  line-height: 2.25rem;   margin-right: 1rem;  background-color: #fff;  font-size: .8rem;  color: #000;    border-radius: .3rem;  box-shadow: .05rem .05rem .1rem #aaa;}
+.content-header li:last-child, ul.customize-steps li:last-child{  margin-right: 0;}
+ul.customize-steps li{   float: left;    list-style-type: none;    height: 5rem;  line-height: 5rem;   margin-right: -.2rem;  background-color: #fff;  font-size: .8rem;  color: #ccc;    text-align: center;}
+ul.customize-steps li span.line{    position:relative;  top: 30%;     display: block;    width: 8rem;    height: .3rem; background-color: #ccc;  border-radius: .5rem;   }
+ul.customize-steps li span.circle{  position:relative;  top: 30%;   margin-top: -.9rem; left: 50%;   margin-left: -.75rem;  display: block;  width: 1.5rem;    height: 1.5rem;    line-height: 1.5rem;   border-radius: 50%; background-color: #ccc;   text-align: center; color: #fff;}
+ul.customize-steps li:first-child span.line, ul.customize-steps li:first-child span.circle{    background-color: #ff7f02;}
+ul.customize-steps li:first-child span.step{    color: #ff7f02;}
+.content-body h1{   clear: both;    height: 2rem;   line-height: 2rem;    font-size: 1rem;    color: black; position: relative; padding-bottom: .5rem;}
+.content-body h1 span:first-child{  position: absolute; top:50%;    margin-top: -.75rem;  display: inline-block; width: .2rem;   height: 1rem;   background-color: #1d7ad9;  border-radius: .1rem;}
+.content-body h1 span:last-child{   margin-left: .5rem;}
+form{    width: 60rem;  background-color: #fbfcff; border-radius: .2rem;   box-shadow: 0 0 .1rem #aaa;  color: #666666;}
+form li{   list-style-type: none;   font-size: .8rem;}
+form ul li.types{   height: 2rem;   line-height: 2rem;    background-color: #f3f3f3;  position: relative;   border-bottom: 1px solid #eee;}
+form ul li.types span{   margin-left: 2rem; color: #1d7ad9;}
+form ul li.row2{     padding: 1.5rem 1rem 1.5rem 2rem;  border-bottom: 1px solid #eee;}
+form ul li.row4{    padding-right: 1rem;    border-bottom: 1px solid #eee;  position: relative;}
+form ul li.row4 div.row4-row{   display: inline-block;   padding: 1rem 1rem 1rem 2rem;}
+form ul li.row4 div.row4-row  label{ margin-right: 3rem;}
+form ul li.row4 div.row4-row  label input.text-row4{width: 3.5rem; box-shadow: 0 0 .1rem #aaa; margin: 0 .2rem;}
+form ul li.row6{  padding: 2rem 1rem 2rem 2rem; border-bottom: 1px solid #eee; }
+form ul li.row2 label, form ul li.row6 label{display: inline-block;    margin-right: 4rem;  height: 35px; line-height: 35px;}
+form ul li select{  float: right; }
+form ul li.row7{    padding: 5rem 0;    width: 100%;}
+form ul li.row7 button{ display: block; width: 9rem;    height: 2.25rem;    background-color: #e15053; border-radius: .3rem;    color: #fff;    font-size: 1rem;    margin: 0 auto;}
+form input[type=radio] {  position: absolute;  opacity: 0;  }
+form input[type=radio] + span {  display: inline-block;  margin-right: 10px;  width: 13px;  height: 13px;  border: 1px solid #DCDCDC;  background-color: #f9f9f9;  border-radius: 50%;}
+form input[type=radio]:checked + span { width: 4px;  height: 4px;  border: 6px solid #1d7ad9;}
+form select{    padding: .4rem 2.5rem .4rem .5rem;   color: #666666; background: #fff url("img/more-blue.png") 95% center no-repeat;  appearance: none;  -webkit-appearance: none;  -moz-appearance: none;  box-shadow: 0 0 .2rem #ddd;}
+form ul li.row4 select{ display: block;    height: 35px;   position: absolute; top: 50%; margin-top: -17.5px;   right: 1rem;}
+
+
+/********/
+/*content-footer*/
+.content-footer-box div.column3{    width: 33.3%;   float: left;}
+.content-footer-box span.name{  font-size: .8rem;}
+.content-footer-box div.intro-box{    width: 15rem;   margin: 0 auto;}
+.content-footer-box div.intro-box li{   display: inline-block;    padding: .5rem .8rem;  font-size: .75rem;}
+.content-footer-box div.intro-box li:first-child{  color:#1d7ad9;}
+.content-footer-box div.contacts-box{   width: 13rem;  float: right; position: relative;}
+.content-footer-box div.contacts-box h1{ padding: .2rem 0;    font-size: .75rem;  float: left;}
+
+/********/
+/*footer*/
+footer h1{ font-size: .75rem;  color: #fff; text-align: center;}
+
+/********/
+/*icon*/
+i{  display: inline-block;}
+form ul li.types i.cartons-types{  width: 21px;    height: 16px;   background-image: url("img/cartons-types.png");     position: absolute; top: 50%;   margin-top: -8px;   left: .5rem;}
+form ul li.types i.size{  width: 23px;    height: 22px;   background-image: url("img/size.png");    position: absolute; top: 50%;   margin-top: -11px;   left: .5rem;}
+form ul li.types i.materials{  width: 17px;    height: 21px;   background-image: url("img/materials.png");    position: absolute; top: 50%;   margin-top: -10.5px;   left: .5rem;}
+.content-footer-box div.contacts-box i.qrcode-customize-cartons{    width: 93px;    height: 89px;   background-image: url("img/qrcode-customize-cartons.png");   position: absolute; right: 0;}

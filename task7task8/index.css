@@ -111,7 +111,7 @@ footer{  clear: both;    margin-top: 6rem;  width: 1923px;  background-color: #2
 /*************************************************************/
 
 /*************************************************************/
-/*icon-index.html*/
+/*icon-index*/
 
 i{  display: inline-block;  }
 .icon-wechat{  width: 27px;  height: 28px;  background-image: url("img/icon-wechat.png");  background-size: cover;  position: absolute;  top: 50%;  margin-top: -14px;  right: 21rem;  }
